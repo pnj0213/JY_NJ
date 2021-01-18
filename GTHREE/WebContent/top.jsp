@@ -85,7 +85,7 @@ font-size: 15px;
     <ul>
      <li><%String id = (String)session.getAttribute("id"); 
      if(id!=null){
-     out.print("<a href=#>학사소개</a>");
+     out.print("<a href=#>학사소개ro</a>");
      }else{
     	 out.print("<a href=#>학사소개</a>");
      }
